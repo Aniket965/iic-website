@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Frame />
+    <!-- <Frame /> -->
     <LandingPage />
        <DownButton id='bottom-center'/>
     <!-- <Card>

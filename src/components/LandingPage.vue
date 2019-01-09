@@ -4,11 +4,16 @@
       <img  src="https://static.videezy.com/system/resources/thumbnails/000/002/758/original/earth_from_space.jpg" />
       <h1  class="top-left"> IIC <br/> BVCOE </h1>
       </div>
+      <Gallery/>
     </div>
 </template>
 <script >
+import Gallery from './Gallery.vue'
 export default {
   name: 'LandingPage',
+  components:{
+    Gallery
+  }
 };
 </script>
 
