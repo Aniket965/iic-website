@@ -1,28 +1,47 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Frame />
+    <LandingPage />
+       <DownButton id='bottom-center'/>
+    <!-- <Card>
+    </Card> -->
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-
+import LandingPage from './components/LandingPage.vue';
+import Card from './components/Card.vue';
+import DownButton from './components/DownButton.vue';
+import Frame from './components/Frame.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    LandingPage,
+    Card,
+    DownButton,
+    Frame,
   },
 };
 </script>
 
 <style lang="scss">
+html,body {
+    margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir next', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background: #eee;
+  min-height: 100vh;
+  min-width: 100;
+}
+#bottom-center {
+  position: fixed;
+  bottom: 2rem;
+  margin-left: 48vw;
+  align-items: center;
 }
 </style>
