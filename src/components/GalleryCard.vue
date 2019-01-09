@@ -1,11 +1,12 @@
 <template>
     <div class="card" >
-            <img src="https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA09178-1920x1200.jpg"   />
+            <img :src="uri"   />
     </div>
 </template>
 <script>
 export default {
   name: 'GalleryCard',
+   props:["uri"],
 };
 </script>
 
@@ -14,7 +15,7 @@ export default {
 .card {
     width: fit-content;
     height: 9rem;
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
 }

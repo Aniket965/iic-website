@@ -1,10 +1,11 @@
 <template>
     <div class="landing-page" >
       <div class="container" >
-      <img  src="https://static.videezy.com/system/resources/thumbnails/000/002/758/original/earth_from_space.jpg" />
+      <img  src="https://pbs.twimg.com/media/DMDIKcyWsAEsKDj.jpg" />
       <h1  class="top-left"> IIC <br/> BVCOE </h1>
+      <Gallery class="top-right" />
       </div>
-      <Gallery/>
+      
     </div>
 </template>
 <script >
@@ -32,6 +33,13 @@ export default {
   left: 16px;
   font-size: 200px;
 }
+.top-right {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 2rem;
+  right: 16px;
+}
 .landing-page {
   width: 90vw;
   margin-top: 5vw;
@@ -44,5 +52,7 @@ h1 {
 }
 img {
   width: 100%;
+  filter: grayscale(0.2) blur(1px);
+
 }
 </style>

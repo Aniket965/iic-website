@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <Frame /> -->
+    <Frame />
     <LandingPage />
        <DownButton id='bottom-center'/>
     <!-- <Card>
@@ -27,6 +27,7 @@ export default {
 html,body {
     margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 #app {
   font-family: 'Avenir next', Helvetica, Arial, sans-serif;
