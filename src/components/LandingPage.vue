@@ -38,7 +38,7 @@ export default {
   padding: 0;
   position: absolute;
   top: 2rem;
-  right: 16px;
+  right: -2rem;
 }
 .landing-page {
   width: 90vw;

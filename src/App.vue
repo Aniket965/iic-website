@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <Frame />
+    <!-- <Frame /> -->
+    <SocialBar />
     <LandingPage />
        <DownButton id='bottom-center'/>
     <!-- <Card>
@@ -11,7 +12,8 @@
 import LandingPage from './components/LandingPage.vue';
 import Card from './components/Card.vue';
 import DownButton from './components/DownButton.vue';
-import Frame from './components/Frame.vue'
+import Frame from './components/Frame.vue';
+import SocialBar from './components/SocialBar.vue';
 export default {
   name: 'app',
   components: {
@@ -19,6 +21,7 @@ export default {
     Card,
     DownButton,
     Frame,
+    SocialBar,
   },
 };
 </script>
@@ -35,7 +38,6 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: #eee;
   min-height: 100vh;
   min-width: 100;
 }
