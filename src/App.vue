@@ -3,7 +3,10 @@
     <!-- <Frame /> -->
 
     <SocialBar />
+    <div class="main-content">
     <LandingPage />
+    <EventsPage />
+    </div>
        <DownButton id='bottom-center'/>
     <!-- <Card>
     </Card> -->
@@ -15,6 +18,7 @@ import Card from './components/Card.vue';
 import DownButton from './components/DownButton.vue';
 import Frame from './components/Frame.vue';
 import SocialBar from './components/SocialBar.vue';
+import EventsPage from './components/EventsPage.vue'
 export default {
   name: 'app',
   components: {
@@ -23,11 +27,18 @@ export default {
     DownButton,
     Frame,
     SocialBar,
+    EventsPage
   },
 };
 </script>
 
 <style lang="scss">
+.main-content {
+  width: 90vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 html,body {
     margin: 0;
   padding: 0;

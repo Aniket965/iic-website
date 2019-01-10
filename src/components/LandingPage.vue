@@ -1,5 +1,5 @@
 <template>
-    <div class="landing-page" >
+    <div >
       <div class="container" >
       <img  src="https://pbs.twimg.com/media/DMDIKcyWsAEsKDj.jpg" />
       <h1  class="top-left"> IIC <br/> BVCOE </h1>
@@ -39,12 +39,6 @@ export default {
   position: absolute;
   top: 2rem;
   right: -2rem;
-}
-.landing-page {
-  width: 90vw;
-  margin-top: 5vw;
-  margin-left: 5vw;
-    margin-right: 5vw;
 }
 h1 {
   padding-top: 100px;
