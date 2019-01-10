@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!-- <Frame /> -->
+
     <SocialBar />
     <LandingPage />
        <DownButton id='bottom-center'/>

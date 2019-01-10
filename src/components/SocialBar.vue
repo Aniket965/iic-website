@@ -1,14 +1,17 @@
 <template>
   <div>
     <div class="nav-grid">
-      <div/>
+     <img src="./../assets/asd.png"  />
       <div/>
       <div class="menu-grid" >
         <h2>MENU</h2>
         <v-icon scale="2.5" name="bars" style="color:#000;justify-self:center;align-self:center;"/>
       </div>
     </div>
-    <h3>Facebook ⟷ Linkedin</h3>
+    <div class="social-grid" >
+      <div/>
+    <h3>FACEBOOK ⍿ LINKDEIN</h3>
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,9 @@ export default {
 
 
 <style scoped lang="scss">
+img {
+  height: 5vw;
+}
 .menu-grid {
     display: grid;
 
@@ -34,6 +40,18 @@ export default {
   z-index: 2;
   grid-template-columns: 2fr 8fr 2fr;
 }
+.social-grid {
+  display: grid;
+  width: 100vh;
+  z-index: 2;
+  position: fixed;
+  grid-template-columns: 1fr 4fr;
+  transform: rotate(90deg);
+  left: 1.3rem;
+  overflow: hidden;
+  -webkit-transform-origin: 5% 5%;
+  // left: 
+}
 h2 {
   text-align: end;
   margin: 0;
@@ -41,24 +59,21 @@ h2 {
 //   background: pink;
   font-size: 1.7rem;
   font-weight: bold;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
 h3 {
-  overflow: hidden;
-  background: white;
-  font-size: 1.7rem;
+
+  // background: pink;
+  font-size: 1.3rem;
   font-weight: 500;
-  padding: 2rem;
+  margin: 0;
+  
+  // padding: 1vw;
   text-align: center;
-  text-indent: 30rem;
-  position: fixed;
-  transform: rotate(90deg);
-  -webkit-transform-origin: 0% 0%;
-  z-index: 2;
-  left: 6rem;
-  width: 100vh;
-  top: 0;
+  text-indent: 10rem;
+  z-index: 5;
+
 }
 </style>
