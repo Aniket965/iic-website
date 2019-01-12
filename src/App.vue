@@ -9,7 +9,7 @@
     <AboutPage />
     <Footer />
     </div>
-       <DownButton id='bottom-center'/>
+       <!-- <DownButton id='bottom-center'/> -->
     <!-- <Card>
     </Card> -->
   </div>

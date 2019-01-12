@@ -44,7 +44,7 @@ h2 {
 }
 .event-number {
     bottom: -4rem;
-    left: -4rem;
+    left: -6rem;
     position: absolute;
     width: 10vw;
     height: 10vw;

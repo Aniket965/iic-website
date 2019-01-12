@@ -30,14 +30,14 @@ export default {
   padding: 0;
   position: absolute;
   top: 2rem;
-  left: 16px;
+  left: 2rem;
   font-size: 200px;
 }
 .top-right {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 2rem;
+  top: 5rem;
   right: -2rem;
 }
 h1 {

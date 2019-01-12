@@ -20,8 +20,7 @@ export default {
     box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
 }
 img {
-    height:9rem;
-   
+    height:12rem;
 }
 
 </style>
