@@ -4,7 +4,7 @@
                <div class="img-box" >
                    <img src="http://www.selecteventgroup.com/app/webroot/files/Select%20Inventory/Linens/decor/wedding-design/image1.jpg" />
                 <div class="event-number" >
-                    <h2>1</h2>
+                    <h4>1</h4>
                     <div  class="yellow-ribbon" /> 
                 </div>
                 </div> 
@@ -28,8 +28,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h2 {
+h4 {
     margin: 0;
+    margin-top: 1rem;
+    margin-right: 2rem;
     font-size: 120px;
     line-height: 8rem;
     font-weight: 700;
@@ -76,6 +78,7 @@ img {
     grid-template-columns: 1fr 1fr;
 }
 h1 {
+    font-weight: 900;
     margin: 0;
     font-size: 6rem;
     color: black;

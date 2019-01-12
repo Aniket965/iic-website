@@ -32,6 +32,7 @@ export default {
   top: 2rem;
   left: 2rem;
   font-size: 200px;
+  font-weight: 900;
 }
 .top-right {
   margin: 0;

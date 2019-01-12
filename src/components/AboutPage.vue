@@ -54,6 +54,7 @@ img {
 }
 h1 {
   margin: 2rem;
+  font-weight: 900;
   font-size: 3rem;
   color: black;
   text-align: left;

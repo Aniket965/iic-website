@@ -51,7 +51,7 @@ html,body {
   padding: 0;
   overflow-x: hidden;
 }
- @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans:900');
 #app {
   font-family: 'Avenir next', Helvetica, 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -62,6 +62,9 @@ html,body {
   min-width: 100;
   display: flex;
   justify-content: center;
+}
+p,a,h3,h2 {
+   font-family: 'Avenir next', Helvetica, 'Montserrat', sans-serif;
 }
 #bottom-center {
   position: fixed;
