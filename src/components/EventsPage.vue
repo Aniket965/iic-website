@@ -2,7 +2,7 @@
   <div class="event-page">
     <div class="img-box">
       <img
-        src="http://www.selecteventgroup.com/app/webroot/files/Select%20Inventory/Linens/decor/wedding-design/image1.jpg"
+        src="./../assets/e1.png"
       >
       <div class="event-number">
         <h4>1</h4>
@@ -88,6 +88,7 @@ h1 {
 p {
   text-align: justify;
   margin: 2rem;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 1300px) {
   .event-page {

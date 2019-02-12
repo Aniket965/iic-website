@@ -70,11 +70,11 @@ img {
     top: 3rem;
   }
   h1 {
-    font-size: 5rem!important;
+    font-size: 8rem!important;
   }
   h2 {
     color: black;
-    font-size: 2rem;
+    font-size: 5rem;
   }
 }
 @media only screen and (max-width: 720px) {

@@ -84,7 +84,7 @@ h3 {
 @media only screen and (max-width: 1300px) {
 
 img {
-  height: 5rem;
+  height: 4rem;
 }
 }
 @media only screen and (max-width: 720px) {

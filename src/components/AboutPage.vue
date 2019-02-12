@@ -30,7 +30,7 @@ h2 {
 .img-box {
   position: relative;
   // overflow: hidden;
-
+  height: fit-content!important;
   max-width: 500px;
   align-self: center;
   justify-self: center;
@@ -39,6 +39,7 @@ h2 {
   padding: 1rem;
 }
 .white-box {
+
   overflow: visible;
 }
 img {
@@ -62,6 +63,7 @@ h1 {
 p {
   text-align: justify;
   margin: 2rem;
+    font-size: 1.5rem;
 }
 @media only screen and (max-width: 1300px) {
 
