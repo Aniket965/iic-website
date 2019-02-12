@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.366fe5bbde587a93cab05de3531baa09.js"
+  "/precache-manifest.077eb3870ae96bd96deac583e0770c1c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "iicwebsit"});
