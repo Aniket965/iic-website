@@ -39,7 +39,7 @@ img {
   position: fixed;
   z-index: 2;
   grid-template-columns: 2fr 8fr 2fr;
-  box-shadow: 2px 3px 6px 0px #e2e2e2;
+
 }
 .social-grid {
   display: grid;
@@ -77,7 +77,7 @@ h3 {
   z-index: 5;
 
 }
-.social-grid ,.menu-grid{
+.menu-grid{
   display: none;
 }
 
@@ -88,6 +88,9 @@ img {
 }
 }
 @media only screen and (max-width: 720px) {
+.nav-grid {
+    box-shadow: 2px 3px 6px 0px #e2e2e2;
+}
 .social-grid ,.menu-grid{
   display: none;
 }
