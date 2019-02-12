@@ -22,5 +22,10 @@ export default {
 img {
     height:12rem;
 }
+@media only screen and (max-width: 720px) {
+.card,img {
+    height: 6rem;
+}
+}
 
 </style>

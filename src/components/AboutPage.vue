@@ -63,4 +63,22 @@ p {
   text-align: justify;
   margin: 2rem;
 }
+@media only screen and (max-width: 1300px) {
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 720px) {
+  .img-box {
+    width: 90%;
+    margin-top:5%; 
+    margin-bottom:5%; 
+    height: fit-content;
+    padding: 0;
+  }
+   p {
+       font-size: 1.2rem;
+   }
+}
 </style>

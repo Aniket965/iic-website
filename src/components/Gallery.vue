@@ -27,4 +27,5 @@ export default {
 #g2,#g3 {
     margin-top: -3rem;
 }
+
 </style>

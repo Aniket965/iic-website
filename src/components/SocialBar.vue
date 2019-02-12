@@ -39,6 +39,7 @@ img {
   position: fixed;
   z-index: 2;
   grid-template-columns: 2fr 8fr 2fr;
+  box-shadow: 2px 3px 6px 0px #e2e2e2;
 }
 .social-grid {
   display: grid;
@@ -75,5 +76,20 @@ h3 {
   text-indent: 10rem;
   z-index: 5;
 
+}
+.social-grid ,.menu-grid{
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+
+img {
+  height: 5rem;
+}
+}
+@media only screen and (max-width: 720px) {
+.social-grid ,.menu-grid{
+  display: none;
+}
 }
 </style>

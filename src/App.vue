@@ -47,7 +47,7 @@ export default {
   max-width: 1464px
 }
 html,body {
-    margin: 0;
+  margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
@@ -66,6 +66,7 @@ html,body {
 p,a,h3,h2 {
    font-family: 'Avenir next', Helvetica, 'Montserrat', sans-serif;
 }
+p {  font-family:  'Montserrat', sans-serif;}
 #bottom-center {
   position: fixed;
   bottom: 2rem;
