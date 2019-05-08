@@ -5,22 +5,23 @@
         src="./../assets/e1.png"
       >
       <div class="event-number">
-        <h4>1</h4>
+        <h4>{{ number }}</h4>
         <div class="yellow-ribbon"/>
       </div>
     </div>
 
 
       <div class="white-box">
-        <h1>COGNITIVE SKILLS</h1>
-        <p>Half day workshop on Cognitive skills, design and critical thinking for faculty members and students. This will help the attendees to develop a mind frame from which they can think out of the box ideas and at the same time learn to deal with crunch situations. The workshop is planned in the third week of January 2019</p>
+        <h1>{{title}}</h1>
+        <p>{{desp}}</p>
       </div>
 
   </div>
 </template>
 <script >
 export default {
-  name: "EventsPage"
+  name: "EventsPage",
+  props:["title","desp","number"]
 };
 </script>
 
@@ -38,7 +39,7 @@ h4 {
 }
 .yellow-ribbon {
   background: #f9e644;
-  margin: 0;
+  margin: -10px;
   width: 89%;
   height: 0.6rem;
 }
@@ -62,6 +63,7 @@ h4 {
   margin: 20%;
   background: white;
   height: 70vh;
+    min-height: fit-content;
 }
 .white-box {
   overflow: visible;
@@ -89,6 +91,7 @@ p {
   text-align: justify;
   margin: 2rem;
   font-size: 1.5rem;
+
 }
 @media only screen and (max-width: 1300px) {
   .event-page {

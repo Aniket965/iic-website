@@ -5,7 +5,10 @@
     <SocialBar />
     <div class="main-content">
     <LandingPage />
-    <EventsPage />
+    <EventsPage 
+    number="1"
+    title="COGNITIVE SKILLS" 
+    desp="Half day workshop on Cognitive skills, design and critical thinking for faculty members and students. This will help the attendees to develop a mind frame from which they can think out of the box ideas and at the same time learn to deal with crunch situations. The workshop is planned in the third week of January 2019" />
     <AboutPage />
     <Footer />
     </div>
