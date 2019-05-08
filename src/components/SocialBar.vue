@@ -10,7 +10,7 @@
     </div>
     <div class="social-grid" >
       <div/>
-    <h3>FACEBOOK ⍿ LINKDEIN</h3>
+    <h3> <a target="_blank" href="https://www.facebook.com/iicbvcoe/" class="nostyle" style="cursor:pointer;" >FACEBOOK</a> ⍿ <a class="nostyle"  target="_blank" href="https://www.linkedin.com/school/iicbvcoe/" style="cursor:pointer;" >LINKDEIN</a></h3>
     </div>
   </div>
 </template>

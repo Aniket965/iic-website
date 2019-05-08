@@ -66,6 +66,15 @@ export default {
   margin-right: 5vw;
   max-width: 1464px;
 }
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
 html,
 body {
   margin: 0;
