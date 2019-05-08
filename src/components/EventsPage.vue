@@ -1,27 +1,29 @@
 <template>
   <div class="event-page">
     <div class="img-box">
-      <img
-        src="./../assets/e1.png"
-      >
+      <img :src="getImgUrl(number)">
       <div class="event-number">
         <h4>{{ number }}</h4>
         <div class="yellow-ribbon"/>
       </div>
     </div>
 
-
-      <div class="white-box">
-        <h1>{{title}}</h1>
-        <p>{{desp}}</p>
-      </div>
-
+    <div class="white-box">
+      <h1>{{title}}</h1>
+      <p>{{desp}}</p>
+    </div>
   </div>
 </template>
 <script >
 export default {
   name: "EventsPage",
-  props:["title","desp","number"]
+  props: ["title", "desp", "number", "url"],
+  methods: {
+    getImgUrl(number) {
+      var images = require.context("../assets/", false, /\.png$/);
+      return images("./" + number + ".png");
+    }
+  }
 };
 </script>
 
@@ -63,7 +65,7 @@ h4 {
   margin: 20%;
   background: white;
   height: 70vh;
-    min-height: fit-content;
+  min-height: fit-content;
 }
 .white-box {
   overflow: visible;
@@ -91,7 +93,6 @@ p {
   text-align: justify;
   margin: 2rem;
   font-size: 1.5rem;
-
 }
 @media only screen and (max-width: 1300px) {
   .event-page {
@@ -125,26 +126,26 @@ p {
     width: 100%;
   }
   .white-box {
-      height: fit-content;
-     width: 100%;
-     margin-left: 0;
-     margin-right: 0;
-     padding: 0;
-     width: 90%;
-     left: 5%;
+    height: fit-content;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 90%;
+    left: 5%;
   }
   .yellow-ribbon {
-      position: absolute;
-      bottom:0.5rem;
+    position: absolute;
+    bottom: 0.5rem;
   }
   h1 {
-      font-size: 2.5rem;
-      margin-top: 2rem;
-      margin-left: 2rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
   }
-   p {
-       font-size: 1.2rem;
-         font-family:  'Montserrat', sans-serif;
-   }
+  p {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 </style>

@@ -1,12 +1,18 @@
 <template>
     <div class="card" >
-            <img :src="uri"   />
+            <img :src="resolveURI(name)"   />
     </div>
 </template>
 <script>
 export default {
   name: 'GalleryCard',
-   props:["uri"],
+   props:["name"],
+   methods:{
+       resolveURI(name) {
+            var images = require.context("../assets/", false, /\.jpg$/);
+      return images("./" + name + ".jpg");
+       }
+   }
 };
 </script>
 

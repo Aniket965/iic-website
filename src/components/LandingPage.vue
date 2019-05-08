@@ -1,7 +1,7 @@
 <template>
     <div >
       <div class="container" >
-      <img  src="https://pbs.twimg.com/media/DMDIKcyWsAEsKDj.jpg" />
+      <img  src="./../assets/back.jpg" class="blur" />
       <h1  class="top-left"> IIC <br/> BVCOE </h1>
     <div class="flex-center" >
       <h2>PREVIOUS EVENTS</h2>
@@ -23,6 +23,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.blur {
+  filter: blur(2px) ;
+}
 .container  {
   position: relative;
   text-align: left;

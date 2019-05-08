@@ -1,8 +1,8 @@
 <template>
     <div class="box" >
-        <GalleryCard id="g1" uri="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/19/shutterstock_193539209-1.jpg" />
-        <GalleryCard id="g2" uri="https://www.trustech-event.com/theme/trustech_desktop_git/img/img-innovation-stage.jpg" />
-        <GalleryCard id="g3" uri="https://themobilemarketer.files.wordpress.com/2013/04/event2.jpg" />
+        <GalleryCard id="g1" name="g1" />
+        <GalleryCard id="g2"  name="g2" />
+        <GalleryCard id="g3"  name="g3" />
     </div>
 </template>
 <script>
